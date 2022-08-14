@@ -5,7 +5,7 @@ import { Message } from 'element-ui'
 const instance = axios.create({
     time: 1000 * 60,
     withCredentials: true,
-    baseURL: 'https://fzz-music.vercel.app/'
+    baseURL: 'https://netease-cloud-music-api-neon-six.vercel.app/'
 })
 instance.defaults.withCredentials = true
 instance.defaults.validateStatus = function () {
